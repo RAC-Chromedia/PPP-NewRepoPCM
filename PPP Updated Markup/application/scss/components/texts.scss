@@ -1,0 +1,43 @@
+.chromedia{
+	//------------ GLOBAL ELEMENTS / CLASS ------------
+	color: $ppp-third-color;
+	font-family: $ppp-font-family !important;
+	-webkit-font-smoothing: antialiased;
+
+
+	 a {
+		color: $ppp-third-color;
+		&:hover {
+			color: $ppp-prime-color;
+		}
+	}
+
+
+	//------------ ADDED CLASSES ------------
+
+		// FORMATS
+			.text-upper {
+				text-transform: uppercase;
+			}
+			
+			.text-normal {
+				text-transform: none !important;
+			}
+			
+			.text-font-weight-semibold {
+				font-weight: 600;
+			}
+
+		// COLORS
+			.txt-prime {
+				color: $ppp-prime-color;
+			}
+
+			.txt-second {
+				color: $ppp-second-color;
+			}
+
+			.txt-third {
+				color: $ppp-third-color;
+			}
+}

@@ -1,0 +1,38 @@
+.chromedia {
+	.form-group, .form-check {
+		letter-spacing: 0;
+		input, button, select, optgroup, textarea {
+
+		}
+
+		label {
+			font-weight: bold;
+			font-size: 15px;
+			color: #4B4B4B;
+		}
+
+		input, select, button, textarea {
+			background: #FFFFFF;
+			border: 1px solid #828282;
+			font-family: OpenSans-Semibold;
+
+			&::placeholder {
+				font-size: 16px;
+				color: #EFEFEF;
+			}
+		}
+
+		small {
+			font-style: italic;
+			font-size: 12px;
+			color: #BBBBBB;
+		}
+
+		.required {
+			&::after {
+				color: #A03B3B;
+				content: "  *";
+			}
+		}
+	}
+}
