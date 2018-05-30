@@ -22,12 +22,6 @@
 			}
 		}
 
-		small {
-			font-style: italic;
-			font-size: 12px;
-			color: #BBBBBB;
-		}
-
 		.required {
 			&::after {
 				color: #A03B3B;
@@ -35,4 +29,5 @@
 			}
 		}
 	}
+
 }

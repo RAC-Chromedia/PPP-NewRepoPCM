@@ -1,0 +1,9 @@
+.chromedia {
+	button {
+		&.btn-outline-primary{
+			&:hover {
+				background-color: transparent;
+			}
+		}
+	}
+}

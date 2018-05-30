@@ -3,13 +3,24 @@
 	color: $ppp-third-color;
 	font-family: $ppp-font-family !important;
 	-webkit-font-smoothing: antialiased;
-
+	
 
 	 a {
 		color: $ppp-third-color;
 		&:hover {
 			color: $ppp-prime-color;
 		}
+	}
+
+	h1, h2, h3, h4, h5 {
+		font-weight: bold;
+		color: $ppp-prime-color;
+	}
+
+	small {
+		font-style: italic;
+		font-size: 12px;
+		color: #BBBBBB;
 	}
 
 
