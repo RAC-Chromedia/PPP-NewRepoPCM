@@ -21,8 +21,7 @@
 		font-style: italic;
 		font-size: 12px;
 		color: #BBBBBB;
-	}
-
+	}	
 
 	//------------ ADDED CLASSES ------------
 
@@ -38,6 +37,10 @@
 			.text-font-weight-semibold {
 				font-weight: 600;
 			}
+	
+			.bold {
+				font-weight: bold; 
+			}
 
 		// COLORS
 			.txt-prime {
@@ -50,5 +53,9 @@
 
 			.txt-third {
 				color: $ppp-third-color;
+			}
+
+			.text-muted {
+				color: $ppp-muted-color !important;
 			}
 }

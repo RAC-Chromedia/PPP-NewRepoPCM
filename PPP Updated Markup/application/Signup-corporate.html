@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Signup-corporate</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body class="chromedia">
@@ -58,12 +58,23 @@
 	</div>
 
 	<div class="container pt-5 pb-5">
+		<div class="row justify-content-md-center">
+			<div class="col-md-10 col">
+				<nav aria-label="breadcrumb">
+				  	<ol class="breadcrumb small margin-0 bg-trans ">
+				    		<!-- <li class="breadcrumb-item"><a href="#">Library</a></li>  -->
+				    		<li class="breadcrumb-item active text-muted" aria-current="page">Create Account</li>
+			  		</ol>
+				</nav>
+			</div>	
+		</div>
+
 		<div class="row justify-content-md-center pb-5">
 			<div class="col-md-10 col">
 				<div class="content border border-radius-5 pt-5 pb-5 pr-3 pl-3 signin">
 					<div class="row border-bottom pb-5">
 						<div class="col-md-6 col text-center text-font-weight-semibold">
-							<a class="mb-0 nav-link" href="Index.html">
+							<a class="mb-0 nav-link" href="Signup-personal.html">
 								<i class="fa fa-user pb-2"></i><br />
 								Create Personal <br />Account
 							</a>
@@ -79,6 +90,20 @@
 					<form>
 						<div class="row pt-5 pr-5 pl-5">
 
+							<div class="col-md-12 col">
+								<div class="pb-5">
+									<p class="text-center pb-2">
+										PPP offers enhanced ordering solutions and delicious perks to our Corporate Accounts. Starting an account with PPP means we’ve got your back. Unlike other big box delivery services, we are here in Portland, standing by, to get you what you need when you need it. We know our vendors; we know their products and their capacity. Working with us gives you insider access to the best that Portland has to offer – to keep your team happy and healthy. We’re your personal catering concierge!
+									</p>
+									<div class="form-check text-center pb-2">
+								  		<input class="form-check-input" type="checkbox" value="" id="corporateAccount">
+								  		<label class="form-check-label" for="corporateAccount">
+									    		Apply for a Corporate Account with free bi-monthly invoicing.
+								  		</label>
+									</div>
+								</div>
+							</div>
+
 							<div class="col-md-5 col">
 						  		<div class="form-group">
 						    			<label for="firstname" class="required">
@@ -93,30 +118,6 @@
 						    				Last Name
 						    			</label>
 						    			<input type="text" class="form-control border-radius-0" id="lastname" aria-describedby="emailHelp" placeholder="Enter Last Name">
-								</div>
-							</div>
-							<div class="col-md-6 col">
-						  		<div class="form-group">
-						    			<label for="address" class="required">
-						    				Address
-						    			</label>
-						    			<input type="text" class="form-control border-radius-0" id="address" aria-describedby="emailHelp" placeholder="Enter Address">
-								</div>
-							</div>
-							<div class="col-md-4 col">
-						  		<div class="form-group">
-						    			<label for="aptsuit">
-						    				Apt or Suit
-						    			</label>
-						    			<input type="text" class="form-control border-radius-0" id="aptsuit" aria-describedby="emailHelp" placeholder="">
-								</div>
-							</div>
-							<div class="col-md-2 col">
-						  		<div class="form-group">
-						    			<label for="zipcode" class="required">
-						    				Zipcode
-						    			</label>
-						    			<input type="text" class="form-control border-radius-0" id="zipcode" aria-describedby="emailHelp" placeholder="Enter Zipcode">
 								</div>
 							</div>
 							<div class="col-md-5 col">
@@ -159,6 +160,49 @@
 						    			<input type="email" class="form-control border-radius-0" id="mobile" aria-describedby="emailHelp" placeholder="Enter Mobile">
 								</div>
 							</div>
+							
+							<div class="col-md-7 col">
+						  		<div class="form-group">
+						    			<label for="companyname" class="required">
+						    				Company Name
+						    			</label>
+						    			<input type="text" class="form-control border-radius-0" id="companyname" aria-describedby="emailHelp" placeholder="Enter Company Name">
+								</div>
+							</div>
+
+							<div class="col-md-6 col">
+						  		<div class="form-group">
+						    			<label for="address" class="required">
+						    				Address
+						    			</label>
+						    			<input type="text" class="form-control border-radius-0" id="address" aria-describedby="emailHelp" placeholder="Enter Address">
+								</div>
+							</div>
+							<div class="col-md-4 col">
+						  		<div class="form-group">
+						    			<label for="aptsuit">
+						    				Apt or Suit
+						    			</label>
+						    			<input type="text" class="form-control border-radius-0" id="aptsuit" aria-describedby="emailHelp" placeholder="">
+								</div>
+							</div>
+							<div class="col-md-2 col">
+						  		<div class="form-group">
+						    			<label for="zipcode" class="required">
+						    				Zipcode
+						    			</label>
+						    			<input type="text" class="form-control border-radius-0" id="zipcode" aria-describedby="emailHelp" placeholder="Enter Zipcode">
+								</div>
+							</div>
+
+							<div class="col-md-7 col">
+								<div class="form-group">
+							  		<label for="exampleFormControlTextarea1">
+							  			Note
+							  		</label>
+	    								<textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="8" placeholder="Enter Note"></textarea>
+    								</div>
+							</div>
 
 							<div class="col-md-12 col">
 						  		<div class="form-check">
@@ -183,7 +227,7 @@
 						    			<label for="inputState" class="required">
 						    				% Riders Tip
 						    			</label>
-							      		<select id="inputState" class="form-control  border-radius-0">
+							      		<select id="inputState" class="form-control  border-radius-0 txt-prime">
 								        		<option selected>10%</option>
 										<option>12%</option>
 										<option>15%</option>

@@ -29,6 +29,10 @@
 		height: 100%;
 		object-fit: cover;
 	}
+	
+	.bg-trans {
+		background: transparent;
+	}
 
 	.bg-white {
 		background: #fff;
@@ -51,8 +55,6 @@
 		vertical-align: middle;
 	}
 
-	.bold { font-weight: bold; }
-
 	.shadow {box-shadow: 0 2px 8px 0 rgba(0,0,0,0.13);}
 
 	.scroll-0 {overflow: hidden !important;}
@@ -69,6 +71,11 @@
 
 			.bg-third {
 				background-color: $ppp-third-color;
+			}
+
+	// MARGINS
+			.margin-0 {
+				margin: 0px;
 			}
 
 }
