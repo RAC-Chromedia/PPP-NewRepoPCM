@@ -30,4 +30,22 @@
 		}
 	}
 
+	.select-cards {
+		label {
+			width: 100%;
+			border: 0.125em solid #C8C8C8;
+			border-left: 10px solid #C8C8C8;
+		}
+
+		input[type=radio] {
+	        		display: none;
+	        		appearance: none;
+	    	}
+
+	    	input[type=radio]:checked + label {
+        			border: 0.125em solid #444444;
+			border-left: 10px solid #444444;
+    		}
+	}
+
 }
