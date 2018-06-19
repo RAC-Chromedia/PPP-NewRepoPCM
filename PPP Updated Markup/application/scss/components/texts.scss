@@ -37,6 +37,10 @@
 			.text-font-weight-semibold {
 				font-weight: 600;
 			}
+
+			.text-font-weight-normal {
+				font-weight: normal;
+			}
 	
 			.bold {
 				font-weight: bold; 
@@ -58,4 +62,11 @@
 			.text-muted {
 				color: $ppp-muted-color !important;
 			}
+
+	//------------ CUSTOM CLASSES ------------
+
+		.add-card {
+			font-size: 25px !important;
+		}
+
 }
