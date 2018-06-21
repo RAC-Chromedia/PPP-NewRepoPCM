@@ -1,7 +1,8 @@
 .chromedia{
 	.ppp-logo {
 		img {
-			width: 27.8125em;
+			max-width: 27.8125em;
+			width: 100%;
 		}
 	}
 
@@ -9,5 +10,5 @@
 		.fa{
 			font-size: 3em;
 		}
-	}	
+	}
 }

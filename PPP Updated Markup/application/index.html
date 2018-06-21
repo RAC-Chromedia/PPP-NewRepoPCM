@@ -4,14 +4,15 @@
 	<meta charset="UTF-8">
 	<title>User Profile</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="shortcut icon" href="logo.png">
 </head>
 <body class="chromedia">
 	<div class="pb-5">
 		<header class="border-bottom">
 			<div class="container">
-				<div class="row">
 
-					<div class="col-md-12 col">
+				<div class="row">
+					<div class="col-12 col">
 						<div class="nav-menu text-upper text-font-weight-semibold">
 							<ul class="nav pull-right">
 								<li class="nav-item">
@@ -24,14 +25,14 @@
 						</div>
 					</div>
 
-					<div class="col-md-12 col">
-						<div class="nav-menu  text-upper text-font-weight-semibold">
-							<div class="ppp-logo pull-left">
-								<a href="#" class="navigation-logo">
-									<img alt="Ppp_logo" class="transition-all" src="ppp_logo.png">
-								</a>
-							</div>
+					<div class="col-12 col">
 
+						<div class="ppp-logo pull-left">
+							<a href="#" class="navigation-logo">
+								<img alt="Ppp_logo" class="transition-all" src="ppp_logo.png">
+							</a>
+						</div>
+						<div class="nav-menu  text-upper text-font-weight-semibold desktop-nav">
 							<ul class="nav nav-main pull-right">
 								<li class="nav-item">
 									<a class="nav-link txt-second" href="#">Order Now</a>
@@ -51,8 +52,46 @@
 							</ul>
 						</div>
 
+						<div id="accordion" class="mobile-nav pull-right mt-2">
+							<div class="card">
+								<div class="card-header" id="headingOne">
+									<h5 class="mb-0 text-right">
+										<button class="btn btn-link pr-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											<span class=" fa fa-bars"></span>
+										</button>
+									</h5>
+								</div>
+
+
+								<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+									<div class="card-body pl-0 pr-0 pb-0">
+										<div class="nav-menu  text-upper text-font-weight-semibold">
+											<ul class="nav nav-main mt-0">
+												<li class="nav-item">
+													<a class="nav-link txt-second" href="#">Order Now</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="#">Catering</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="#">Advertising</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link " href="#">About</a>
+												</li>
+												<li class="nav-item border-bottom-0">
+													<a class="nav-link " href="#">Blog</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
+
 			</div>
 		</header>
 	</div>

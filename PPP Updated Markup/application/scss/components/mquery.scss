@@ -1,0 +1,31 @@
+
+@media only screen and (max-width : 1199px)  { 
+	.chromedia {
+		.nav {
+			&.nav-main {
+				margin-top:  1em;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width : 800px)  { 
+	.chromedia {
+		.desktop-nav {
+			display: none;
+		}
+
+		.ppp-logo {
+			img {
+				width: 80%;
+			}
+		}
+
+		.mobile-nav {
+			display: inline-block !important;
+
+			width: 100%;
+			margin-top: -4.3em !important;
+		}
+	}
+}

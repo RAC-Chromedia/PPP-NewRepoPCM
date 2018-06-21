@@ -1,0 +1,20 @@
+.chromedia {
+	.mobile-nav {
+		display: none;
+
+		.card , .card-header{
+
+			background: transparent;
+			border: none;
+		}
+
+		.nav-main {
+
+			li {
+				width: 100%;
+				display: block;
+				border-bottom: 1px solid $ppp-muted-color;
+			}
+		}
+	}
+}
