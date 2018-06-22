@@ -20,11 +20,15 @@
 				font-size: 16px;
 				color: #EFEFEF;
 			}
+
+			&.is-invalid {
+				border-color: $danger;
+			}
 		}
 
 		.required {
 			&::after {
-				color: #A03B3B;
+				color: $danger;
 				content: "  *";
 			}
 		}

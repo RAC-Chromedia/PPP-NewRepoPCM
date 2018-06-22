@@ -129,19 +129,27 @@
 				<div class="content border border-radius-5 pt-5 pb-5 pr-3 pl-3 signin">
 					<form>
 						<div class="row pr-5 pl-5">
-
+							
+							<div class="col-12 col">
+								<div class="error banner text-center pb-3 pt-3 mb-5 border">
+									<span class="fa fa-exclamation-circle"></span>
+									Please fix the highlighted issue
+								</div>
+							</div>
 							<div class="col-md-12 col mb-4">
 								<h3>
 									User Profile
 								</h3>
 							</div>
-
 							<div class="col-md-5 col">
 						  		<div class="form-group">
 						    			<label for="firstname" class="required">
 						    				First Name
 						    			</label>
-						    			<input type="text" class="form-control border-radius-0" id="firstname" aria-describedby="emailHelp" placeholder="Enter First Name">
+						    			<input type="text" class="form-control border-radius-0 is-valid" id="firstname" aria-describedby="emailHelp" placeholder="Enter First Name" required>
+						    			<div class="valid-feedback">
+										Looks good!
+									</div>
 								</div>
 							</div>
 							<div class="col-md-5 col">
@@ -149,7 +157,10 @@
 						    			<label for="lastname" class="required">
 						    				Last Name
 						    			</label>
-						    			<input type="text" class="form-control border-radius-0" id="lastname" aria-describedby="emailHelp" placeholder="Enter Last Name">
+						    			<input type="text" class="form-control border-radius-0 is-invalid" id="lastname" aria-describedby="emailHelp" placeholder="Enter Last Name" required>
+						    			<div class="invalid-feedback">
+								          		Please enter lastname.
+								        	</div>
 								</div>
 							</div>
 
@@ -159,7 +170,7 @@
 						    			<label for="address" class="required">
 						    				Address
 						    			</label>
-						    			<input type="text" class="form-control border-radius-0" id="address" aria-describedby="emailHelp" placeholder="Enter Address">
+						    			<input type="text" class="form-control border-radius-0" id="address" aria-describedby="emailHelp" placeholder="Enter Address" required>
 								</div>
 							</div>
 							<div class="col-md-4 col">
@@ -175,7 +186,7 @@
 						    			<label for="zipcode" class="required">
 						    				Zipcode
 						    			</label>
-						    			<input type="text" class="form-control border-radius-0" id="zipcode" aria-describedby="emailHelp" placeholder="Enter Zipcode">
+						    			<input type="text" class="form-control border-radius-0" id="zipcode" aria-describedby="emailHelp" placeholder="Enter Zipcode" required>
 								</div>
 							</div>
 
@@ -184,7 +195,7 @@
 						    			<label for="email" class="required">
 						    				Email
 						    			</label>
-						    			<input type="text" class="form-control border-radius-0" id="email" aria-describedby="emailHelp" placeholder="Enter Email">
+						    			<input type="email" class="form-control border-radius-0" id="email" aria-describedby="emailHelp" placeholder="Enter Email" required>
 								</div>
 							</div>
 
@@ -195,7 +206,7 @@
 						    			<label for="phone" class="required">
 						    				Phone
 						    			</label>
-						    			<input type="email" class="form-control border-radius-0" id="phone" aria-describedby="emailHelp" placeholder="Enter Phone">
+						    			<input type="text" class="form-control border-radius-0" id="phone" aria-describedby="emailHelp" placeholder="Enter Phone" required>
 						    			<small id="emailHelp" class="form-text text-muted">
 						    				Phone or mobile must be provided
 						    			</small>
@@ -207,7 +218,7 @@
 						    			<label for="extension">
 						    				Extension
 						    			</label>
-						    			<input type="email" class="form-control border-radius-0" id="extension" aria-describedby="emailHelp" placeholder="Enter Extension">
+						    			<input type="text" class="form-control border-radius-0" id="extension" aria-describedby="emailHelp" placeholder="Enter Extension">
 								</div>
 							</div>
 
@@ -216,7 +227,7 @@
 						    			<label for="mobile" class="required">
 						    				Mobile
 						    			</label>
-						    			<input type="email" class="form-control border-radius-0" id="mobile" aria-describedby="emailHelp" placeholder="Enter Mobile">
+						    			<input type="text" class="form-control border-radius-0" id="mobile" aria-describedby="emailHelp" placeholder="Enter Mobile" required>
 								</div>
 							</div>
 
@@ -225,13 +236,14 @@
 						    			<label for="inputState" class="required">
 						    				Role
 						    			</label>
-							      		<select id="inputState" class="form-control  border-radius-0">
-								        		<option selected>Corporate Admin</option>
-										<option>12%</option>
-										<option>15%</option>
-										<option>20%</option>
-										<option>25%</option>
+							      		<select id="inputState" class="form-control  border-radius-0 is-invalid" required>
+								        		<option selected></option>
+										<option>Corporate Admin</option>
+										<option>Personal Account</option>
 								      	</select>
+						    			<div class="invalid-feedback">
+								          		Please enter role.
+								        	</div>
 								</div>
 							</div>
 
@@ -240,13 +252,17 @@
 						    			<label for="inputState" class="">
 						    				Corporate Account
 						    			</label>
-							      		<select id="inputState" class="form-control  border-radius-0 disable">
+							      		<select id="inputState" class="form-control  border-radius-0 disable is-valid">
 								        		<option selected>PPP Corporate</option>
 										<option>12%</option>
 										<option>15%</option>
 										<option>20%</option>
 										<option>25%</option>
 								      	</select>
+						    			<div class="valid-feedback">
+								          		Looks good!
+								        	</div>
+
 								</div>
 							</div>
 
@@ -541,6 +557,29 @@
 			</div>
 		</div>
 	</div>
+
+	<footer class="bg-white pt-4 pb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col">
+					<ul>
+						<label class="bold">
+							Contact
+						</label>
+						<li class="no-bullet">
+							<span class="fa fa-phone"></span> 503-764-1415
+						</li>
+						<li class="no-bullet">
+							<span class="fa fa-envelope"></span> info@portlandpedalpower.com
+						</li>
+						<li class="no-bullet">
+							<span class="fa fa-copyright"></span> Portland Pedal Power, LLC, 2018
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

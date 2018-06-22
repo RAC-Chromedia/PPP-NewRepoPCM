@@ -78,6 +78,24 @@
 				margin: 0px;
 			}
 
+	// VALIDATIONS 
+			
+			.banner{
+				&.error {
+					border-color: $danger !important;
+					color: $danger !important;
+				}
+
+				&.announcement {
+					border-color: $ppp-prime-color !important;
+					color: $ppp-prime-color !important;
+				}
+
+				span.fa{
+					font-size: 1.25em;
+				}
+			}
+
 }
 
 
