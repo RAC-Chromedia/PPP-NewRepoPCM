@@ -1,0 +1,69 @@
+.chromedia {
+	footer {
+		a{
+			&.icons {
+				font-size: 20px;
+				.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-pinterest-p, .fa-linkedin, .fa-flickr, .fa-google-plus {
+					padding: 8px 11px 8px 11px;	
+				}
+
+				.fa-facebook-f {
+					background: #3b5998;
+				}
+
+				.fa-twitter {
+					background: #00aced;
+				}
+
+				.fa-instagram {
+					background: #125688;
+				}
+
+				.fa-pinterest-p {
+					background: #cb2027;
+				}
+
+				.fa-linkedin{
+					background: #007bb5;
+				}
+
+				.fa-flickr{
+					background: #ff0084;
+				}
+
+				.fa-google-plus {
+					background: #dd4b39;
+				}
+			}
+			&:hover {
+				.fa-facebook-f {
+					background: #283e6d;
+				}
+
+				.fa-twitter {
+					background: #0977a0;
+				}
+
+				.fa-instagram {
+					background: #0e456d;
+				}
+
+				.fa-pinterest-p {
+					background: #7a1115;
+				}
+
+				.fa-linkedin {
+					background: #03567c;
+				}
+
+				.fa-flickr {
+					background: #bc0162;
+				}
+
+				.fa-google-plus{
+					background: #b23c2e;
+				}
+			}
+		}
+	}
+}
