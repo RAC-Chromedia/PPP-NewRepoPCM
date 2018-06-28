@@ -1,0 +1,39 @@
+.chromedia {
+	&.ppp-old {
+		background: #e2e0db;
+
+		.content {
+			background:  transparent;
+			font-family: Verdana,Geneva,sans-serif !important;
+			.form-group {
+
+				span {
+					color: #444444;
+				}
+
+				span, a {
+					font-size: 0.93em;
+				}
+
+				label {
+					margin-bottom: 0px;
+				}
+
+				.items {
+
+				}
+			}
+
+			.google-map {
+				width: 100%;
+				height: 30em;
+			}
+
+			h2 {
+				font-size: 1.4em;
+				// font-weight: normal;
+			}
+
+		}
+	}
+}
